@@ -1,0 +1,1 @@
+# homebrew-folder-content-spitter-outter
