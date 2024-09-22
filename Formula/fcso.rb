@@ -2,8 +2,8 @@ class Fcso < Formula
     desc "A script that filters files/folders using command-line arguments and a config file"
     homepage "https://github.com/tannerabread/folder-content-spitter-outter"
     url "https://github.com/tannerabread/folder-content-spitter-outter/archive/v1.0.1.tar.gz"
-    sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
-    version "1.0.0"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+    version "1.0.1"
   
     def install
       bin.install "folder-content-spitter-outter.sh" => "fcso"
