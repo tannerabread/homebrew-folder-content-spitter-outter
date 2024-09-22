@@ -6,7 +6,12 @@ class FilterScript < Formula
     version "1.0.0"
   
     def install
-      bin.install "folder-content-spitter-outter.sh" => "folder-content-spitter-outter"
+      bin.install "folder-content-spitter-outter.sh" => "fcso"
+
+      # Create an alias for the tool
+        (bash_completion/"fcso").write <<~EOS
+          alias fcso='fcso'
+        EOS
     end
   end
   
