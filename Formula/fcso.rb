@@ -1,4 +1,4 @@
-class FilterScript < Formula
+class FolderContentSpitterOutter < Formula
     desc "A script that filters files/folders using command-line arguments and a config file"
     homepage "https://github.com/tannerabread/folder-content-spitter-outter"
     url "https://github.com/tannerabread/folder-content-spitter-outter/archive/v1.0.0.tar.gz"
